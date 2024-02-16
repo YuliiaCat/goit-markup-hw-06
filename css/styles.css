@@ -263,7 +263,6 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   list-style-type: none;
   gap: 24px;
   padding: 0;
@@ -274,7 +273,7 @@ body {
 
 .portfolio-list-item {
   border: 1px solid #e7e9fc;
-  width: calc((100% - 48px) / 3);
+  width: 360px;
   height: 420px;
   background-color: #ffffff;
   overflow: hidden;
