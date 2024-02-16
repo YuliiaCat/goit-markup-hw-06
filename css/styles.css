@@ -264,7 +264,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  gap: 24px;
+  gap: 48px 24px;
   padding: 0;
   margin: 0 auto;
   max-width: 1128px;
@@ -273,7 +273,7 @@ body {
 
 .portfolio-list-item {
   border: 1px solid #e7e9fc;
-  width: 360px;
+  width: calc((100% - 48px) / 3);
   height: 420px;
   background-color: #ffffff;
   overflow: hidden;
