@@ -181,7 +181,7 @@ body {
 .team-container {
   height: 732px;
   background-color: #f4f4fd;
-  margin: 0;
+  margin-bottom: 120px;
 }
 
 .team-title {
@@ -248,6 +248,7 @@ body {
   height: 1000px;
   margin: 0 auto;
   align-items: center;
+  overflow: hidden;
 }
 
 .portfolio-title {
@@ -259,8 +260,7 @@ body {
   text-transform: capitalize;
   text-align: center;
   padding-bottom: 72px;
-  margin-top: 120px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .portfolio-list {
