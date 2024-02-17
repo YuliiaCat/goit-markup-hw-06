@@ -248,7 +248,6 @@ body {
   height: 1000px;
   margin: 0 auto;
   align-items: center;
-  overflow: hidden;
 }
 
 .portfolio-title {
@@ -274,10 +273,15 @@ body {
 
 .portfolio-list-item {
   border: 1px solid #e7e9fc;
-  width: calc((100% - 48px) / 3);
+  width: 359px;
   height: 420px;
   background-color: #ffffff;
   overflow: hidden;
+}
+
+.list-item-image {
+  width: 360px;
+  height: 300px;
 }
 
 .portfolio-list-title {
