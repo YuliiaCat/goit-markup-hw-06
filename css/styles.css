@@ -107,7 +107,6 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   padding-bottom: 48px;
   margin: 0;
 }
@@ -119,7 +118,6 @@ body {
   width: 169px;
   height: 56px;
   border-radius: 4px;
-  gap: 10px;
   border: none;
   box-shadow: 0 4px 4px 0 #00000026;
   font-family: "Roboto", sans-serif;
@@ -153,7 +151,6 @@ body {
 }
 
 .benefits-list-item {
-  display: inline-block;
   letter-spacing: 0.02em;
 }
 
@@ -167,7 +164,6 @@ body {
 }
 
 .benefits-list-item-text {
-  color: #434455;
   line-height: 1.5;
   padding-top: 8px;
   margin: 0;
@@ -181,6 +177,7 @@ body {
   height: 732px;
   background-color: #f4f4fd;
   margin-bottom: 120px;
+  text-align: center;
 }
 
 .team-title {
@@ -189,7 +186,6 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   padding-top: 120px;
   padding-bottom: 72px;
   margin: 0;
@@ -219,7 +215,6 @@ body {
 
 .team-list-title {
   color: #2e2f42;
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -229,8 +224,6 @@ body {
 }
 
 .team-list-position {
-  color: #434455;
-  text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0;
@@ -245,7 +238,6 @@ body {
   width: 1128px;
   height: 1000px;
   margin: 0 auto;
-  align-items: center;
 }
 
 .portfolio-title {
@@ -273,7 +265,6 @@ body {
   border: 1px solid #e7e9fc;
   width: 360px;
   height: 420px;
-  background-color: #ffffff;
   overflow: hidden;
 }
 
@@ -283,23 +274,19 @@ body {
 }
 
 .portfolio-list-title {
-  display: inline-block;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
   padding-left: 16px;
   padding-top: 32px;
   margin: 0;
 }
 
 .portfolio-list-text {
-  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
   padding-left: 16px;
   margin: 0;
   padding-top: 8px;
@@ -319,7 +306,6 @@ body {
 }
 
 .footer-link {
-  display: inline-block;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -327,7 +313,6 @@ body {
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.17;
-  text-align: left;
   text-decoration: none;
   padding-top: 100px;
 }
@@ -337,7 +322,6 @@ body {
 }
 
 .footer-text {
-  display: inline-block;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
