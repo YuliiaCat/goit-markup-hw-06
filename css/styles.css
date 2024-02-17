@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
-  margin: 0;
 }
 
 /* HEADER */
@@ -69,7 +68,6 @@ body {
 /* HERO */
 .hero-container {
   background-color: #2e2f42;
-  margin: 0;
 }
 
 .hero-title {
@@ -77,14 +75,12 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin: 0;
   text-align: center;
 }
 
 .hero-button {
   background-color: #4d5ae5;
   color: #ffffff;
-  border: none;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -100,14 +96,9 @@ body {
 /* HERO END */
 
 /* BENEFITS */
-.benefits-container {
-  margin: 120px 156px;
-}
 
 .benefits-list {
   list-style-type: none;
-  gap: 24px;
-  margin: 0;
 }
 
 .benefits-list-item {
@@ -120,12 +111,10 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 0;
 }
 
 .benefits-list-item-text {
   line-height: 1.5;
-  margin: 0;
 }
 
 /* BENEFITS END */
@@ -134,7 +123,6 @@ body {
 
 .team-container {
   background-color: #f4f4fd;
-  margin-bottom: 120px;
   text-align: center;
 }
 
@@ -144,12 +132,10 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  margin: 0;
 }
 
 .team-list {
   list-style-type: none;
-  margin: 0 156px 120px;
 }
 
 .team-list-item {
@@ -162,22 +148,16 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 0;
 }
 
 .team-list-position {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0;
 }
 
 /* OUR TEAM END*/
 
 /* PORTFOLIO */
-
-.portfolio-container {
-  margin: 0 auto;
-}
 
 .portfolio-title {
   color: #2e2f42;
@@ -186,12 +166,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  margin: 0;
 }
 
 .portfolio-list {
   list-style-type: none;
-  margin: 0;
 }
 
 .portfolio-list-title {
@@ -200,13 +178,11 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 0;
 }
 
 .portfolio-list-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0;
 }
 
 /* PORTFOLIO END*/
@@ -215,7 +191,6 @@ body {
 
 .footer-container {
   background-color: #2e2f42;
-  margin-top: 120px;
 }
 
 .footer-link {
@@ -237,6 +212,5 @@ body {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0;
 }
 /* FOOTER END*/
