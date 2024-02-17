@@ -109,6 +109,7 @@ body {
   letter-spacing: 0.02em;
   padding-bottom: 48px;
   margin: 0;
+  text-align: center;
 }
 
 .hero-button {
@@ -266,11 +267,6 @@ body {
   width: 360px;
   height: 420px;
   overflow: hidden;
-}
-
-.list-item-image {
-  width: 360px;
-  height: 300px;
 }
 
 .portfolio-list-title {
