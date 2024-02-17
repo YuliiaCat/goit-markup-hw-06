@@ -244,7 +244,7 @@ body {
 /* PORTFOLIO */
 
 .portfolio-container {
-  max-width: 1128px;
+    width: 1128px;
   height: 1000px;
   margin: 0 auto;
   align-items: center;
@@ -269,7 +269,7 @@ body {
   list-style-type: none;
   gap: 48px 24px;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .portfolio-list-item {
