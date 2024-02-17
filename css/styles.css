@@ -272,8 +272,9 @@ body {
 }
 
 .portfolio-list-item {
+  box-sizing: border-box;
   border: 1px solid #e7e9fc;
-  width: 359px;
+  width: 360px;
   height: 420px;
   background-color: #ffffff;
   overflow: hidden;
