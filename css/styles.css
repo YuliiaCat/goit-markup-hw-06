@@ -46,7 +46,7 @@ img {
 }
 
 .container {
-  max-width: 1128px;
+  max-width: 1158px;
   align-content: center;
   margin: 0 auto;
 }
@@ -190,9 +190,8 @@ img {
   list-style-type: none;
 }
 
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
+.benefits-title {
+  display: none;
 }
 
 .benefits-list {
