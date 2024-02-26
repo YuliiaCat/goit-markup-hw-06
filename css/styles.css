@@ -11,15 +11,6 @@ body {
   margin: 0;
 }
 
-.wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  max-width: 1440px;
-  justify-content: center;
-  margin: auto;
-}
-
 main {
   flex-grow: 1;
 }
@@ -50,8 +41,8 @@ img {
 }
 
 .container {
-  max-width: 1158px;
-  align-content: center;
+  max-width: 1128px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
