@@ -43,6 +43,7 @@ img {
 
 .section {
   padding: 120px 0 120px;
+  margin: 0 auto;
 }
 
 .container {
@@ -55,6 +56,7 @@ img {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -147,13 +149,13 @@ img {
 
 .address-list-link:hover,
 .address-list-link:focus {
-  color: #404BBF;
-;
+  color: #404bbf;
 }
 /* HEADER END */
 
 /* HERO */
 .hero {
+  max-width: 1440px;
   padding: 188px 0 188px;
   display: flex;
   flex-direction: column;
@@ -326,15 +328,15 @@ img {
   width: 40px;
   height: 40px;
   background-color: #fff;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 .team-icon {
-  fill: #4D5AE5;
+  fill: #4d5ae5;
 }
 
 .team-icon:hover {
-  fill: #31D0AA;
+  fill: #31d0aa;
 }
 /* OUR TEAM END*/
 
