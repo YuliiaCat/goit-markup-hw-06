@@ -622,10 +622,10 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-close:hover,
-.button-close:focus {
+.button-close:focus,
+.button-close:hover {
   background: #404bbf;
-  border: none;
+  outline: none;
 }
 
 .modal-icon {
@@ -745,7 +745,7 @@ img {
 
 input[type="checkbox"]:checked + .terms .privacy-box {
   background-color: #404bbf;
-  border: none;
+  outline: none;
   fill: #f4f4fd;
 }
 
