@@ -746,10 +746,9 @@ img {
   fill: transparent;
 }
 
-.modal-form-checkbox input[type="checkbox"]:checked + span {
+.modal-form-checkbox input[type="checkbox"]:checked + .privacy-box {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
 }
 
 .privacy-link {
