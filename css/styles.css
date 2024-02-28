@@ -155,10 +155,9 @@ img {
 
 /* HERO */
 .hero {
+  position: relative;
   max-width: 1440px;
   padding: 188px 0;
-  display: flex;
-  flex-direction: column;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -175,6 +174,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 .hero-title {
@@ -187,20 +187,23 @@ img {
 }
 
 .hero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   background-color: #4d5ae5;
   color: #ffffff;
-  min-width: 169px;
+  max-width: 169px;
   height: 56px;
   border-radius: 4px;
   border: none;
   box-shadow: 0 4px 4px 0 #00000026;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -567,16 +570,24 @@ img {
 /* FOOTER END*/
 
 /* MODAL */
-
 .modal {
+  display: none;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transform: translateY(100%);
+  pointer-events: none;
+}
+
+.modal:target {
+  display: block;
+  transform: translateY(0);
+  pointer-events: all;
 }
 
 .modal-content {
@@ -613,7 +624,7 @@ img {
 }
 
 .button-close:hover,
-.button-close:hover {
+.button-close:focus {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
@@ -648,6 +659,7 @@ img {
 
 .modal-form-input {
   position: relative;
+  border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input {
@@ -658,11 +670,11 @@ img {
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
-  border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus {
   border: 1px solid #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .modal-icon-input {
@@ -673,50 +685,81 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon-input:focus {
-  fill: #4D5AE5;
+.modal-form-textarea {
+  margin-bottom: 16px;
 }
 
 .modal-form-text {
-  width: 360px;
+  width: 100%;
   height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #2e2f4266;
   resize: none;
   border: 1px solid #2e2f4266;
   border-radius: 4px;
   padding: 8px 16px;
-  color: #2e2f4266;
-  font-size: 12px;
-  line-height: 1, 16;
-  letter-spacing: 0.04em;
-  margin-bottom: 16px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-checkbox {
+.modal-form-text:focus {
+  border-color: #4d5ae5;
+}
+
+.modal-form-checkbox {
   margin-bottom: 24px;
 }
 
 .terms {
-  color: #757575;
+  color: #8e8f99;
   font-size: 12px;
-  line-height: 1.14;
+  line-height: 1.17;
   letter-spacing: 0.04em;
 }
 
-.modal-form-button {
-  width: 169px;
-  height: 56px;
-  background-color: #4d5ae5;
+.privacy-box {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.privacy-box:checked {
+  background-color: #404bbf;
   border: none;
-  box-shadow: 0px 4px 4px 0px #00000026;
-  border-radius: 4px;
-  color: #ffffff;
+  fill: #f4f4fd;
+}
+
+.privacy-link {
+  color: #4d5ae5;
+}
+
+.modal-form-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
-  margin-bottom: 24px;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  margin: 0 auto;
 }
 
 .modal-form-button:hover,
