@@ -629,7 +629,7 @@ img {
 }
 
 .modal-icon {
-  fill: #2E2F42;
+  fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -746,9 +746,10 @@ img {
   fill: transparent;
 }
 
-.modal-form-checkbox input[type="checkbox"]:checked + .privacy-box {
+.modal-form-checkbox input[type="checkbox"]:checked + label .privacy-box {
   background-color: #404bbf;
   border: none;
+  fill: #f4f4fd;
 }
 
 .privacy-link {
