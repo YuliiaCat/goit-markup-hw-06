@@ -746,7 +746,7 @@ img {
   fill: transparent;
 }
 
-.modal-form-checkbox input[type="checkbox"]:checked + label .privacy-box {
+input[type="checkbox"]:checked + label .privacy-box {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
