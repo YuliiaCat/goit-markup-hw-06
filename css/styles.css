@@ -743,7 +743,7 @@ img {
   fill: transparent;
 }
 
-.form-checkbox:checked + span svg{
+.form-checkbox:checked + .privacy-box{
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
