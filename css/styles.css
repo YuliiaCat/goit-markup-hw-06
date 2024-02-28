@@ -624,7 +624,7 @@ img {
 
 .button-close:hover,
 .button-close:focus {
-  background-color: #404bbf;
+  background: #404bbf;
   border: none;
 }
 
