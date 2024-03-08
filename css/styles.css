@@ -901,7 +901,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    padding-left: 0;
+    padding-left: 15px;
     row-gap: 0;
   }
 }
@@ -958,13 +958,13 @@ img {
 
 @media screen and (min-width: 768px) {
   .social-media-container {
+    text-align: left;
     margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .social-media-container {
-    text-align: left;
     margin-right: 80px;
   }
 }
